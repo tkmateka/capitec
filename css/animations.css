@@ -1,0 +1,6 @@
+.fixed-section-input {
+    transition: all 2s;
+}
+.hideNav {
+    display: none;
+}

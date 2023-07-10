@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitec Home</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onscroll="handleScroll(event)">
+    <div class="app-container">
+        <nav class="full-width">
+            <div class="white-bg height-60px flex space-between_center padding-20px-sides">
+                <!-- left -->
+                <div class="flex gap-3em">
+                    <div class="logo">
+                        <img src="./images/capitec-logo.svg" alt="capitec-logo">
+                    </div>
+                    <div class="flex gap-2em left-menu">
+                        <p>Personal</p>
+                        <p>Business</p>
+                    </div>
+                </div>
+                <!-- Center -->
+                <div class="nav-input hideNav" id="navInput">
+                    <input type="text" placeholder="Find ways to bank better">
+                    <span><i class="fa fa-search" aria-hidden="true"></i></span>
+                </div>
+                <!-- right -->
+                <div class="flex gap-3em start-center">
+                    <div class="left-menu">
+                        <p>Menu <span><i class="fa fa-chevron-down primary" aria-hidden="true"></i></span></p>
+                    </div>
+                    <div class="flex gap-1em">
+                        <img src="./images/internet-banking-lock.svg" alt="internet-banking-lock">
+                        <div class="line-height-1">
+                            <p class="online-banking">Online Banking</p>
+                            <p><small>Sign In</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="white-bg white-transparent-bg height-60px padding-20px-sides flex end_center gap-1em">
+                <button class="btn primary white-bg primary-btn">Get the App</button>
+                <button class="btn primary-bg white primary-border primary-btn">Switch to Capitec</button>
+            </div>
+        </nav>
+        <!-- Sections -->
+        <section class="landing-section">
+            <div class="fixed-section-input" id="sectionInput">
+                <input type="text" placeholder="Find ways to bank better">
+                <span><i class="fa fa-search" aria-hidden="true"></i></span>
+            </div>
+            <div class="section-content">
+                <p class="primary font-4em margin-bottom-30px">Simplify banking, <br>
+                    <span><b>live better</b></span>
+                </p>
+                <button class="btn primary-bg white primary-border primary-btn height-45px">Open an Account</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Javascript Logic -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
